@@ -1,0 +1,15 @@
+.nav-top .user{
+    float: right;
+}
+
+.nav-bottom{
+    overflow: hidden;
+    float: right;
+    padding-right: 50px;
+}
+
+.nav-bottom li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}

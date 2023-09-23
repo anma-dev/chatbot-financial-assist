@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "law",
+      "patterns": [
+        "what is law",
+        "what do you mean by law",
+        "tell me something about law"
+      ],
+      "responses": [
+        "The system of rules which a particular country or community recognizes as regulating the actions of its members and which it may enforce by the imposition of penalties.",
+        "It is a rule or set of rules, enforceable by the courts, regulating the government of a state, the relationship between the organs of government and the subjects of the state, and the relationship or conduct of subjects towards each other."
+      ]
+    },
+    {
+      "tag": "contract",
+      "patterns": [
+        "what is contract",
+        "what do u mean by a contract",
+        "explain contract in simple words",
+        "what is contract in law"
+      ],
+      "responses": [
+        "It is a written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.",
+        "A contract is an agreement between two parties that creates an obligation to perform (or not perform) a particular duty."
+      ]
+    },
+    {
+      "tag": "copyright",
+      "patterns": [
+        "how do i copyright my work",
+        "how to copyright work",
+        "how does copyright work"
+      ],
+      "responses": [
+        "Copyright is a type of intellectual property that protects original works of authorship as soon as an author fixes the work in a tangible form of expression.",
+        "Please, refer to the articles under copyright laws"
+      ]
+    },
+    {
+      "tag": "fundamental",
+      "patterns": [
+        "what are my fundamental rights",
+        "tell my fundamental rights",
+        "explain my fundamental rights"
+      ],
+      "responses": [
+        "Fundamental rights are the basic human rights guaranteed to all citizens by the Constitution of India.",
+        "Please, refer to the articles under fundamental rights laws"
+      ]
+    }
+  ]
+}

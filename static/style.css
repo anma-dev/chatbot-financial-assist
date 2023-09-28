@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanuman&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=Hind+Guntur&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=Hind+Guntur&family=Hind+Madurai&family=Roboto&family=Ubuntu&display=swap');
 
 body{
     background-color: rgba(152, 218, 255, 1);
@@ -45,6 +47,7 @@ body{
     width: 100%;
     padding-right: 50px;
     background-color: rgba(219, 242, 255, 1);
+    justify-content: space-between;
 }
 
 .nav-bottom ul{
@@ -79,7 +82,7 @@ body{
 }
 
 .nav-bottom a:hover:before{
-    width: 50%;
+    width: 30%;
 }
 
 .box-body{
@@ -92,27 +95,44 @@ body{
     padding: 20px;
 }
 
+.left-box::before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    height: 45%;
+    width: 30%;
+    background-image: url(/static/images/background-shape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
 .left-box h1{
     font-size: 50px;
     padding: 40px;
     color: rgba(13, 31, 128, 1);
+    font-family: 'Hanuman', serif;
 }
 
 .left-box h3{
     font-size: 32px;
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 20px 40px;
     color: rgb(26, 57, 209);
+    font-family: 'Hind Guntur', sans-serif;
 }
 
 .left-box p{
     font-size: 23px;
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 20px 40px;
+    font-family: 'Hind Guntur', sans-serif;
+    font-weight: 600;
 }
 
 .left-box .services{
-    width: 180px;
+    width: 170px;
     height: 50px;
-    margin: 0px 40px 40px 40px;
+    margin: 0px 40px 20px 40px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -120,6 +140,7 @@ body{
     border: 0px;
     background-color: rgb(12, 26, 93);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    font-family: 'Hind Madurai', sans-serif;
     color: white;
 }
 
@@ -131,7 +152,7 @@ body{
 
 .right-box{
     width: 40%;
-    padding: 15px 50px 25px 5px;
+    padding: 15px 50px 25px 0px;
 }
 
 .right-box img{

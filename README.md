@@ -3,7 +3,7 @@
 A Financial Advisor landing page with a chatbot
 
 ## Description 🌱
-This project is a financial Advisor landing page with a chatbot that is trained to provide answers to limited financial questions frequently asked. This project shows the combination of front-end web development with the python flask framework.
+This project is a financial Advisor landing page with a chatbot trained to answer limited financial questions frequently asked. This project shows the combination of front-end web development with the Python Flask framework.
 
 ## Technology Stack 🪣
 - **Front-end** - HTML, CSS
@@ -17,37 +17,37 @@ This project is a financial Advisor landing page with a chatbot that is trained 
 
 ## How to launch the website 🚀
 1. Clone the repository in your device.
-2. Make sure that Anaconda is install in your device.
-3. Open the cloned repositor folder in your command prompt and install the following framework and library
+2. Make sure that Anaconda is installed in your device.
+3. Open the cloned repository folder in your command prompt and install the following framework and library
   1. Install the Flask framework through your terminal
     ```
     conda install -c anaconda flask
     ```
-  2. Activate the Flask environment
+  3. Activate the Flask environment
      ```
      . venv/bin/activate
      ```
-  3. Install the PyTorch library
+  4. Install the PyTorch library
      ```
      conda install -c pytorch pytorch
      ```
-  4. Install NLTK toolkit
+  5. Install NLTK toolkit
      ```
      conda install -c anaconda nltk
      ```
-  5. After NLTK download, type ```python``` to access the python terminal
-  6. After going into the python terminal import the NLTK toolkit
+  6. After NLTK download, type ```python``` to access the python terminal
+  7. After going into the python terminal import the NLTK toolkit
      ```
      import nltk
      ```
      ```
      nltk.download('punkt')
      ```
-  7. Close the python terminal and go back to the cloned repository directory in the terminal and train the chatbot
+  8. Close the python terminal and go back to the cloned repository directory in the terminal and train the chatbot
      ```
      python train.py
      ```
-  8. Finally launch the website
+  9. Finally launch the website
      ```
      python app.py
      ```

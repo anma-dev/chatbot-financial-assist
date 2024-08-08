@@ -2,20 +2,20 @@
 
 A Financial Advisor landing page with a chatbot
 
-## Description 🌱
+## Description
 This project is a financial Advisor landing page with a chatbot trained to answer limited financial questions frequently asked. This project shows the combination of front-end web development with the Python Flask framework.
 
-## Technology Stack 🪣
+## Technology Stack
 - **Front-end** - HTML, CSS
 - **Python Frameworks** - Flask
 - **Python Library** - PyTorch, NLTK
 - **Programming Languages** - Python, JavaScript
 
-## Screenshots 📸
+## Screenshots
 ![Screenshot 2023-09-30 215743](https://github.com/anwesa-sinha/Financial-assist-chatbot/assets/110493614/708c2aa7-df81-4ff3-af91-7b2fe22ffc6d)
 ![Screenshot 2023-09-30 215714](https://github.com/anwesa-sinha/Financial-assist-chatbot/assets/110493614/9d06f099-ee27-4d93-a09b-a815e9c703b9)
 
-## How to launch the website 🚀
+## How to launch the website
 1. Clone the repository in your device.
 2. Make sure that Anaconda is installed in your device.
 3. Open the cloned repository folder in your command prompt and install the following framework and library

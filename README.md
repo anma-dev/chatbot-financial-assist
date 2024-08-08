@@ -9,7 +9,7 @@ This project is a financial Advisor landing page with a chatbot trained to answe
 - **Front-end** - HTML, CSS
 - **Python Frameworks** - Flask
 - **Python Library** - PyTorch, NLTK
-- **Programming Languages** - Python, JavaScript
+- **Programming Languages** - Python, JS
 
 ## Screenshots
 ![Screenshot 2023-09-30 215743](https://github.com/anwesa-sinha/Financial-assist-chatbot/assets/110493614/708c2aa7-df81-4ff3-af91-7b2fe22ffc6d)
